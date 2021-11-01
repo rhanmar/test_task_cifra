@@ -21,4 +21,6 @@
     * ```docker run -p 8000:8000 cifra```  
     * Open http://localhost:8000/ in browser
   * Via manage.py
+    * create virtual environment
+    * ```python manage.py migrate```
     * ```python manage.py runserver```
