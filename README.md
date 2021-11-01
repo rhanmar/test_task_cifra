@@ -20,6 +20,7 @@
     * ```docker build --tag cifra . ```  
     * ```docker run -p 8000:8000 cifra```  
     * Open http://localhost:8000/ in browser
+    * if you need to save your data after stopping the server use ```docker run -v news_data:/app/data -p 8000:8000 cifra```
   * Via manage.py
     * create virtual environment
     * ```python manage.py migrate```
